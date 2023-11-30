@@ -15,11 +15,22 @@ export default defineUserConfig({
         }
     },
     theme: defaultTheme({
+        docsRepo: 'https://github.com/getneko/getneko-doc',
+    docsBranch: 'main',
+    docsDir: 'docs',
+    editLinkPattern: ':repo/-/edit/:branch/:path',
+    contributors:false,
         locales: {
             '/zh/': {
                 
                 selectLanguageName: '简体中文',
                 selectLanguageText: '选择语言',
+                notFound: [
+                    '这里什么都没有',
+                    '我们怎么到这来了？',
+                    '这是一个 404 页面',
+                    '看起来我们进入了错误的链接',
+                  ],
                 navbar: [
                     {
                         text: '首页',
@@ -27,6 +38,19 @@ export default defineUserConfig({
                     }, {
                         text: 'test',
                         link: '/test'
+                    },
+                    {
+                        text: 'github',
+                        children:[
+                            {
+                                text:'服务端',
+                                link:'https://github.com/getneko/getneko'
+                            },
+                            {
+                                text:'桌面客户端',
+                                link:'https://github.com/getneko/getneko-desktop'
+                            }
+                        ]
                     }
                 ]
             },
@@ -41,6 +65,19 @@ export default defineUserConfig({
                     }, {
                         text: 'test',
                         link: '/test'
+                    },
+                    {
+                        text: 'github',
+                        children:[
+                            {
+                                text:'server',
+                                link:'https://github.com/getneko/getneko'
+                            },
+                            {
+                                text:'desktop client',
+                                link:'https://github.com/getneko/getneko-desktop'
+                            }
+                        ]
                     }
                 ]
             },
