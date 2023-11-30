@@ -18,7 +18,7 @@ export default defineUserConfig({
         docsRepo: 'https://github.com/getneko/getneko-doc',
     docsBranch: 'main',
     docsDir: 'docs',
-    editLinkPattern: ':repo/-/edit/:branch/:path',
+    editLinkPattern: ':repo/edit/:branch/:path',
     contributors:false,
         locales: {
             '/zh/': {
