@@ -1,10 +1,10 @@
 ---
 home: true
 title: Home
-heroImage: /images/logo.png
+heroImage: /images/logo.jpg
 actions:
   - text: start
-    link: /guide/getting-started.html
+    link: /server/
     type: primary
 features:
   - title: Simplicity First
