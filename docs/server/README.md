@@ -1,4 +1,4 @@
-Getneko use The GNU General Public License v3.0 to open the source, Please follow the open source license.
+Getneko is open-source under the GNU General Public License v3.0. Please comply with the open-source license.
 
 Official group member(Listed in alphabetical order):  
 akuan  
