@@ -1,10 +1,10 @@
 ---
 home: true
 title: Home
-heroImage: /images/logo.png
+heroImage: /images/logo.jpg
 actions:
   - text: 开始
-    link: /guide/getting-started.html
+    link: /zh/server/
     type: primary
 features:
   - title: 简洁至上
