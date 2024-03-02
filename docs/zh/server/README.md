@@ -4,6 +4,6 @@ getneko 使用 GNU通用公共许可证第三版 协议开源，请遵守开源�
 akuan  
 cangkuai  
 Ho Man  
-yangyang  
-Viplamodo  
 jkkoi  
+Viplamodo  
+yangyang
