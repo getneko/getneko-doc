@@ -71,6 +71,12 @@ export default defineUserConfig({
                         "/zh/server/errcode.md",
                         "/zh/server/files.md"
                     ]
+                },{
+                    text:"帮助",
+                    children:[
+                        "/zh/server/questions.md",
+                        "/zh/server/needhelp.md"
+                    ]
                 }
             ]
               }
@@ -115,6 +121,12 @@ export default defineUserConfig({
                     children: [
                         "/server/errcode.md",
                         "/server/files.md"
+                    ]
+                },{
+                    text:"help",
+                    children:[
+                        "/server/questions.md",
+                        "/server/needhelp.md"
                     ]
                 }
             ]
