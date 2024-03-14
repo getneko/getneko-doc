@@ -15,6 +15,7 @@
   
 4.赋予执行权限 `chmod +x ./getneko` (仅linux)  
   
-5.运行二进制文件 `./getneko`
-
-
+5.运行二进制文件 `./getneko`  
+  
+  
+注:默认端口为61223，可以用 `-port` flag指定端口,如果需要查看swagger文档请添加 `-doc` flag，url为`http://ip:port/swagger/index.html`
