@@ -2,7 +2,7 @@
 
 ## Steps
 
-1.Install the Go programming language. Version 1.21.6 is recommended. Support for the for syntax of version 1.22 will be provided in the future through refactoring.
+1.Install the Go programming language. Version 1.21.8 is recommended. Support for the for syntax of version 1.22 will be provided in the future through refactoring.
 
 2.Clone the source code.
 ``` bash
