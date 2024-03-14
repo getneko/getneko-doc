@@ -65,6 +65,12 @@ export default defineUserConfig({
                         ,"/zh/server/bin.md",
                         "/zh/server/source.md",
                     ]
+                },{
+                    text: "二次开发",
+                    children: [
+                        "/zh/server/errcode.md",
+                        "/zh/server/files.md"
+                    ]
                 }
             ]
               }
@@ -103,6 +109,12 @@ export default defineUserConfig({
                         "/server/needs.md"
                         ,"/server/bin.md",
                         "/server/source.md",
+                    ]
+                },{
+                    text: "Secondary development",
+                    children: [
+                        "/server/errcode.md",
+                        "/server/files.md"
                     ]
                 }
             ]
