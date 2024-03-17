@@ -19,3 +19,5 @@ When the code is 0, it's normal; when it's a negative number, it's an error.
 | -11        | Creator must be an administrator |
 | -12        | Account does not have any projects |
 | -13        | API does not exist               |
+| -14 | Duplicate users exist |
+| -500 | unknown mistake |
