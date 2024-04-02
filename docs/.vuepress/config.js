@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
   locales: {
@@ -184,5 +185,8 @@ export default defineUserConfig({
         },
       },
     }),
+    sitemapPlugin({
+        hostname: 'https://www.getneko.top'
+      }),
   ],
 })
